@@ -200,6 +200,10 @@ span{
   text-decoration-color: #d4af37;
 }
 
+.pictext {
+  Color: #d4af37;
+}
+
 .slideanim {visibility:hidden;}
   .slide {
     animation-name: slide;
