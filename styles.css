@@ -189,6 +189,10 @@ span{
   color: #d4af37;
   font-size: 20px;
 }
+  
+.conhead{
+  text-decoration: underline #d4af37;
+}
 
 .slideanim {visibility:hidden;}
   .slide {
