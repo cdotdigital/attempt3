@@ -164,9 +164,12 @@ span{
 
 .sechead1{
   text-align: center;
+  color: #d4af37;
+  font-weight: bold;
 }
 
 .sechead2 {
+  text-align:center;
   color: #d4af37;
   font-weight: bold;
 }
