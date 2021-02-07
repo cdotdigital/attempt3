@@ -9,7 +9,18 @@
 }
 
 @media only screen and (max-width: 600px) {
-  
+    .container-fluid {
+    padding: 60px 50px;
+  }
+
+  .bg-grey {
+  background-color: #f6f6f6;
+}
+
+.smallcon {
+  font-size: 12px;
+  text-align: center;
+}
   .test {
     padding: 100px 25px;
     background-image: url("https://i.ibb.co/k2MdZ4Z/Untitled-design-46.png");
