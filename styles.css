@@ -194,7 +194,8 @@ span{
 }
   
 .conhead{
-  text-decoration: underline; #d4af37;
+  text-decoration: underline;
+  text-decoration-color: #d4af37;
   text-align: center;
 }
 
