@@ -237,9 +237,238 @@ span{
      -webkit-transform: translateY(0%);
    }
 }
+}
 
 @media only screen and (min-width: 600px) {
   .one {
     display: none;
   }
+
+  .container-fluid {
+  padding: 60px 50px;
+}
+
+.bg-grey {
+background-color: #f6f6f6;
+}
+
+.smallcon {
+font-size: 12px;
+text-align: center;
+}
+.test {
+  padding: 100px 25px;
+  background-image: url("https://i.ibb.co/k2MdZ4Z/Untitled-design-46.png");
+  text-align: center;
+  color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/**IMAGE**/
+
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+
+body, html {
+height: 100%;
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+box-sizing: border-box;
+}
+
+.bg-image {
+/* The image used */
+background-image: url("https://i.ibb.co/DMXPkYH/yeahboy.png");
+
+/* Add the blur effect */
+filter: blur(8px);
+-webkit-filter: blur(8px);
+
+/* Full height */
+height: 80%;
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+bottom: 45px;
+}
+
+span{
+z-index: 100;
+position: absolute;
+left: 16px;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+color: white;
+font-weight: bold;
+border: 3px solid #d4af37;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 15;
+width: 80%;
+padding: 20px;
+text-align: center;
+}
+
+/**NAV BAR**/
+
+.overlay {
+height: 0%;
+width: 100%;
+position: fixed;
+z-index: 20;
+top: 0;
+left: 0;
+background-color: rgb(0,0,0);
+background-color: rgba(0,0,0, 0.9);
+overflow-y: hidden;
+transition: 0.5s;
+}
+
+.overlay-content {
+position: relative;
+top: 25%;
+width: 100%;
+text-align: center;
+margin-top: 30px;
+}
+
+.overlay a {
+padding: 8px;
+text-decoration: none;
+font-size: 36px;
+color: #d4af37;
+display: block;
+transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+color: #d4af37;
+}
+
+.overlay .closebtn {
+position: absolute;
+top: 20px;
+right: 45px;
+font-size: 60px;
+}
+
+.one {
+padding: 4% 0%;
+}
+
+.pracback{
+background-color: #d4af37;
+}
+
+.section1{
+padding:10% 8%;
+text-align: center;
+}
+
+.sec1text{
+font-family: Fira Sans;
+font-size: 20px;
+text-align: center;
+line-height: 1.5;
+padding: 3% 2%;
+}
+
+.section2{
+background-image: url("https://i.ibb.co/31mGpFn/Untitled-design-41.png");
+padding:10% 8%;
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+height: 60%;
+}
+
+.sec2text{
+font-family: Fira Sans;
+font-size: 20px;
+text-align: center;
+line-height: 1.5;
+color: white;
+}
+
+.sechead1{
+text-align: center;
+font-weight: bold;
+}
+
+.sechead2 {
+text-align:center;
+color: white;
+font-weight: bolder;
+font-size: 46px;
+}
+
+.icons {
+justify-content: center;
+font-size: 70px;
+transition: 0.5s;
+color: #d4af37;
+padding:6% 0%;
+}
+
+.btn{
+background-color: #d4af37;
+}
+
+.btn:hover{
+background-color: #a67c00;
+}
+
+.conim{
+color: #d4af37;
+font-size: 20px;
+}
+
+.conhead{
+text-decoration: underline;
+text-decoration-color: #d4af37;
+}
+
+
+.slideanim {visibility:hidden;}
+.slide {
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  animation-duration: 1.7s;
+  -webkit-animation-duration: 1.7s;
+  visibility: visible;
+}
+
+@keyframes slide {
+ 0% {
+   opacity: 0;
+   transform: translateY(70%);
+ }
+ 100% {
+   opacity: 1;
+   transform: translateY(0%);
+ }
+}
+@-webkit-keyframes slide {
+ 0% {
+   opacity: 0;
+   -webkit-transform: translateY(70%);
+ }
+ 100% {
+   opacity: 1;
+   -webkit-transform: translateY(0%);
+ }
 }
