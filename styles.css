@@ -75,6 +75,16 @@ background-image: url("https://i.ibb.co/Sx1Rpgd/Websites-That-Work.png");
 .pracback{
   background-color: #6a0dad;
 }
+    
+.headsubtext{
+  text-align: center;
+  padding: 12%;
+  color: white;
+}
+    
+.pracback2{
+  background-image: radial-gradient( circle farthest-corner at 27.6% 54.5%,  rgba(106,13,173,1) 0%, rgba(114,55,156,1) 44.6%, rgba(103,6,170,1) 81.9% );
+}
 
 .section1{
   padding:10% 8%;
