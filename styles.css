@@ -174,9 +174,60 @@ background-image: url("https://i.ibb.co/Sx1Rpgd/Websites-That-Work.png");
      -webkit-transform: translateY(0%);
    }
  }
+
+ .navbar{
+   display: none;
+ }
+
+ .topnav {
+  overflow: hidden;
+  background-color: #0a0a0a;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  font-family: ;
+}
+
+.topnav a.icon {
+  color: white;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a.active {
+  font-family: ;
+  font-size: 22px;
+}
+
+.topnav a:hover {
+  background-color: #0a0a0a;
+  color: #6a0dad;
+}
+
+.active {
+  background-color: #0a0a0a;
+  color: white;
+}
+
 }
 
 @media only screen and (min-width: 600px) {
+
+.topnav{
+  display: none;
+}
   .one {
     display: none;
   }
