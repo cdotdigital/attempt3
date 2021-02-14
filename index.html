@@ -54,18 +54,20 @@
 </div>
 </nav>
 
-
-
-  <!--  <div id="myNav" class="overlay">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <div class="overlay-content">
-    <a href="#">Pricing</a>
-    <a href="#">Contact</a>
+<div class="topnav">
+  <a href="index.html" class="active navbar-brand">
+    <img src="https://i.ibb.co/ZKr3rdj/john-bailey.png" alt="" width="30" height="24" class="d-inline-block align-top">
+    codeBLACK
+  </a>
+  <div id="myLinks">
+    <a href="index.html">Home</a>
+    <a href="Pricing.html">Pricing</a>
+    <a href="Contact.html">Contact Me</a>
   </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
 </div>
-
-</p>
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span> -->
 
 
 <div class="text1">
@@ -197,6 +199,15 @@
     </footer>
 
     <script>
+    function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
 function openNav() {
   document.getElementById("myNav").style.height = "100%";
 }
