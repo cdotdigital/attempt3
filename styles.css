@@ -79,15 +79,27 @@ background-image: url("https://i.ibb.co/Sx1Rpgd/Websites-That-Work.png");
 .pracback{
   background-color: #6a0dad;
 }
-    
+
+.pracback2{
+  background-image: radial-gradient( circle farthest-corner at 27.6% 54.5%,  rgba(106,13,173,1) 0%, rgba(114,55,156,1) 44.6%, rgba(103,6,170,1) 81.9% );
+}
+
+.section3{
+  padding:0 20%;
+  text-align: center;
+  position: relative;
+  bottom: 90px;
+}
+
+.pracback3{
+  background-image: radial-gradient( circle farthest-corner at 27.7% 43.2%,  rgba(251,251,251,1) 0%, rgba(187,187,187,1) 46.7%, rgba(220,220,220,1) 90% );
+  z-index: 2;
+ }
+
 .headsubtext{
   text-align: center;
   padding: 12%;
   color: white;
-}
-    
-.pracback2{
-  background-image: radial-gradient( circle farthest-corner at 27.6% 54.5%,  rgba(106,13,173,1) 0%, rgba(114,55,156,1) 44.6%, rgba(103,6,170,1) 81.9% );
 }
 
 .section1{
@@ -110,13 +122,6 @@ background-image: url("https://i.ibb.co/Sx1Rpgd/Websites-That-Work.png");
   background-repeat: no-repeat;
   width: 100%;
   height: 60%;
-}
-    
-.section3{
-  padding:0 20%;
-  text-align: center;
-  position: relative;
-  bottom: 90px;
 }
 
 .sec2text{
@@ -148,11 +153,13 @@ background-image: url("https://i.ibb.co/Sx1Rpgd/Websites-That-Work.png");
 }
 
   .btn{
-  background-color: #6a0dad;
+  background-color: black;
+  color:white;
 }
 
 .btn:hover{
-  background-color: #a67c00;
+  background-color: #333333;
+  color: white;
 }
 
 .conim{
@@ -170,8 +177,8 @@ background-image: url("https://i.ibb.co/Sx1Rpgd/Websites-That-Work.png");
   .slide {
     animation-name: slide;
     -webkit-animation-name: slide;
-    animation-duration: 1.4s;
-    -webkit-animation-duration: 1.4s;
+    animation-duration: 1.7s;
+    -webkit-animation-duration: 1.7s;
     visibility: visible;
   }
 
@@ -241,6 +248,7 @@ background-image: url("https://i.ibb.co/Sx1Rpgd/Websites-That-Work.png");
   background-color: #0a0a0a;
   color: white;
 }
+
 
 }
 
@@ -326,7 +334,11 @@ padding: 4% 0%;
 }
 
 .pracback{
-background-color: #6a0dad;
+  background-image: radial-gradient( circle farthest-corner at 27.6% 54.5%,  rgba(106,13,173,1) 0%, rgba(114,55,156,1) 44.6%, rgba(103,6,170,1) 81.9% );
+}
+
+.pracback2{
+  background-image: radial-gradient( circle farthest-corner at 27.6% 54.5%,  rgba(106,13,173,1) 0%, rgba(114,55,156,1) 44.6%, rgba(103,6,170,1) 81.9% );
 }
 
 .section1{
