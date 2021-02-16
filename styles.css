@@ -1,11 +1,13 @@
 
-body{
-  background-image: radial-gradient( circle 481px at 50.2% 51%,  rgba(193,193,193,1) 0%, rgba(220,220,220,1) 45.8%, rgba(227,227,227,1) 59.1%, rgba(193,193,193,1) 90% );
-  overflow-x: hidden !important;
-}
+
 
 
 @media only screen and (max-width: 600px) {
+  body{
+  background-image: radial-gradient( circle 481px at 50.2% 51%,  rgba(193,193,193,1) 0%, rgba(220,220,220,1) 45.8%, rgba(227,227,227,1) 59.1%, rgba(193,193,193,1) 90% );
+  overflow-x: hidden !important;
+}
+  
     .container-fluid {
     padding: 42px 42px;
   }
@@ -258,6 +260,10 @@ background-image: url("https://i.ibb.co/Sx1Rpgd/Websites-That-Work.png");
 }
 
 @media only screen and (min-width: 600px) {
+  body{
+  background-image: radial-gradient( circle 481px at 50.2% 51%,  rgba(193,193,193,1) 0%, rgba(220,220,220,1) 45.8%, rgba(227,227,227,1) 59.1%, rgba(193,193,193,1) 90% );
+  overflow-x: hidden !important;
+}
 
   .container-fluid {
   padding: 42px 42px;
@@ -504,6 +510,11 @@ background-image: url("https://i.ibb.co/Sx1Rpgd/Websites-That-Work.png");
   
   
   @media only screen and (min-width: 768px) {
+    body{
+  background-image: radial-gradient( circle 481px at 50.2% 51%,  rgba(193,193,193,1) 0%, rgba(220,220,220,1) 45.8%, rgba(227,227,227,1) 59.1%, rgba(193,193,193,1) 90% );
+  overflow-x: hidden !important;
+}
+    
     .image1 {
     /* The image used */
     background-image: url("https://i.ibb.co/Sx1Rpgd/Websites-That-Work.png");
