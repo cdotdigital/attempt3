@@ -179,6 +179,7 @@ background-image: url("https://i.ibb.co/Sx1Rpgd/Websites-That-Work.png");
    0% {
      opacity: 0;
      transform: translateY(70%);
+     overflow: visible !important;
    }
    100% {
      opacity: 1;
