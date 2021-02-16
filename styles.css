@@ -8,6 +8,10 @@ body{
     padding: 42px 42px;
   }
 
+  .card{
+   margin: 0 auto;
+   }
+
   .bg-grey {
   background-color: #f6f6f6;
 }
@@ -257,6 +261,11 @@ background-image: url("https://i.ibb.co/Sx1Rpgd/Websites-That-Work.png");
   .container-fluid {
   padding: 42px 42px;
   }
+
+   .card{
+   margin: 0 auto;
+   }
+
 
   .bg-grey {
   background-color: #f6f6f6;
