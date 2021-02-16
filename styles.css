@@ -59,20 +59,6 @@ background-image: url("https://i.ibb.co/Sx1Rpgd/Websites-That-Work.png");
   z-index: 1;
   }
 
-  .text1{
-    position: absolute;
-    z-index: 15;
-    text-align: center;
-  }
-
-  .headtext{
-    left: 60px;
-      position:relative;
-      text-align:center;
-      top: 100px;
-      font-size: 60px;
-      color: white;
-  }
 
 .one {
   padding: 4% 0%;
@@ -312,20 +298,6 @@ background-image: url("https://i.ibb.co/Sx1Rpgd/Websites-That-Work.png");
   z-index: 1;
   }
 
-  .text1{
-  position: absolute;
-  z-index: 15;
-  text-align: center;
-  }
-
-  .headtext{
-  left: 60px;
-    position:relatve;
-    text-align:center;
-    top: 100px;
-    font-size: 60px;
-    color: white;
-  }
 
   .one {
   padding: 4% 0%;
