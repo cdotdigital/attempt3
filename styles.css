@@ -172,6 +172,7 @@ background-image: url("https://i.ibb.co/Sx1Rpgd/Websites-That-Work.png");
     animation-duration: 1.7s;
     -webkit-animation-duration: 1.7s;
     visibility: visible !important;
+    overflow: visible !important;
   }
 
   @keyframes slide {
@@ -412,6 +413,7 @@ background-image: url("https://i.ibb.co/Sx1Rpgd/Websites-That-Work.png");
   animation-duration: 1.7s;
   -webkit-animation-duration: 1.7s;
   visibility: visible !important;
+  overflow: visible !important;
   }
 
   @keyframes slide {
