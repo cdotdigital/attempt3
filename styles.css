@@ -165,13 +165,13 @@ background-image: url("https://i.ibb.co/Sx1Rpgd/Websites-That-Work.png");
 }
 
 
-.slideanim {visibility:visible;}
+.slideanim {visibility:hidden;}
   .slide {
     animation-name: slide;
     -webkit-animation-name: slide;
     animation-duration: 1.7s;
     -webkit-animation-duration: 1.7s;
-    visibility: visible;
+    visibility: visible !important;
   }
 
   @keyframes slide {
@@ -405,13 +405,13 @@ background-image: url("https://i.ibb.co/Sx1Rpgd/Websites-That-Work.png");
   }
 
 
-  .slideanim {visibility:visible;}
+  .slideanim {visibility:hidden;}
   .slide {
   animation-name: slide;
   -webkit-animation-name: slide;
   animation-duration: 1.7s;
   -webkit-animation-duration: 1.7s;
-  visibility: visible;
+  visibility: visible !important;
   }
 
   @keyframes slide {
