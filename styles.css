@@ -517,4 +517,8 @@ background-image: url("https://i.ibb.co/Sx1Rpgd/Websites-That-Work.png");
     position: relative;
     z-index: 1;
     }
+
+    .card{
+    padding: 10px !important;
+    }
   }
