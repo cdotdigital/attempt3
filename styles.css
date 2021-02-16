@@ -40,7 +40,6 @@
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   overlow-x: hidden;
-  overflow-y: visible;
 }
 
 * {
@@ -70,7 +69,7 @@ background-image: url("https://i.ibb.co/Sx1Rpgd/Websites-That-Work.png");
 
   .headtext{
     left: 60px;
-      position:absolute;
+      position:relative;
       text-align:center;
       top: 100px;
       width: 100%;
@@ -299,7 +298,6 @@ background-image: url("https://i.ibb.co/Sx1Rpgd/Websites-That-Work.png");
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   overlow-x: hidden;
-  overflow-y: visible;
   }
 
   * {
@@ -329,7 +327,7 @@ background-image: url("https://i.ibb.co/Sx1Rpgd/Websites-That-Work.png");
 
   .headtext{
   left: 60px;
-    position:absolute;
+    position:relatve;
     text-align:center;
     top: 100px;
     width: 100%;
