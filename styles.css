@@ -326,6 +326,10 @@ background-image: url("https://i.ibb.co/Sx1Rpgd/Websites-That-Work.png");
   padding: 4% 0%;
   }
 
+  .card{
+   margin: 0 auto;
+   }
+
   .pracback{
   background-color: #6a0dad;
   }
